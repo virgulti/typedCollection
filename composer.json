@@ -1,0 +1,23 @@
+{
+    "name": "virgulti/typed-collection",
+    "description": "Type-safe collections for PHP — drop-in replacements for generic arrays with runtime type enforcement",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Virgulti\\TypedCollection\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Virgulti\\TypedCollection\\Tests\\": "tests/",
+            "Virgulti\\TypedCollection\\Examples\\": "examples/"
+        }
+    }
+}
